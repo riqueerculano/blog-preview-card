@@ -5,5 +5,5 @@ body {
   min-height: 100vh; /* Garante que o fundo ocupe a altura total da tela */
   display: flex;
   flex-direction: column;
-  padding: 24px;
+  padding: 1.5rem;
 }
