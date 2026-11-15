@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Blog card preview](https://github.com/riqueerculano/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Blog card preview](https://www.frontendmentor.io/solutions/blog-preview-card-GOpG4-pYT0)
+- Live Site URL: [Blog card preview](https://riqueerculano.github.io/blog-preview-card/)
 
 ## My process
 
