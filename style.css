@@ -109,15 +109,20 @@
 }
 
 .attribution {
-  position: fixed;
-  inset-block-end: 0.75rem;
-  inset-inline: 0;
   font-size: 0.6875rem;
   text-align: center;
+  margin-top: 24px;
   color: var(--gray-950);
 }
 
 .attribution a {
-  color: var(--attribution-link, hsl(228, 45%, 44%));
+  color: hsl(228, 45%, 44%);
   font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+.attribution a:hover,
+.attribution a:focus-visible {
+  color: var(--gray-950);
+  text-decoration: underline;
 }
