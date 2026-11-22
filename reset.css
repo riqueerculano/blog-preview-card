@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  min-height: 100vh;
   margin: 0;
   line-height: 1.5;
 }
@@ -27,12 +26,9 @@ dd {
   margin: 0;
 }
 
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
 a {
   text-decoration: none;
+  text-decoration-skip-ink: auto;
 }
 
 ul[role="list"],
@@ -41,7 +37,10 @@ ol[role="list"] {
   list-style: none;
 }
 
-ul,ol {
+ul,
+ol {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -72,6 +71,7 @@ textarea:not([rows]) {
 
 table {
   border-collapse: collapse;
+  border-spacing: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
