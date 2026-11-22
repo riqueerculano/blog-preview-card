@@ -1,18 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./assets/images/favicon-32x32.png"
+  >
+
   <title>Frontend Mentor | Blog preview card</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet">
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="base.css">
@@ -22,36 +34,76 @@
 <body>
 
   <main class="card-container">
+
     <article class="card">
 
-      <img src="./assets/images/illustration-article.svg" alt="" class="card-image">
+      <!-- Article illustration -->
+      <img
+        src="./assets/images/illustration-article.svg"
+        alt=""
+        class="card-image"
+      >
 
       <div class="card-content">
 
-        <span class="badge">Learning</span>
+        <!-- Article category -->
+        <p class="badge">Learning</p>
 
-        <p class="publish-date">Published 21 Dec 2023</p>
+        <!-- Publication date -->
+        <time datetime="2023-12-21" class="publish-date">
+          Published 21 Dec 2023
+        </time>
 
+        <!-- Article title -->
         <h1 class="card-title">
-          <a href="#">HTML &amp; CSS foundations</a>
+          <a href="#">
+            HTML &amp; CSS foundations
+          </a>
         </h1>
 
-        <p class="card-description">These languages are the backbone of every website, defining structure, content, and
-          presentation.</p>
-        <div class="card-author">
-          <img src="./assets/images/avatar.svg" alt="" class="author-avatar">
-          <span class="author-name">Greg Hooper</span>
-        </div>
+        <!-- Article description -->
+        <p class="card-description">
+          These languages are the backbone of every website,
+          defining structure, content, and presentation.
+        </p>
+
       </div>
+
+      <!-- Author information -->
+      <footer class="card-author">
+
+        <img
+          src="./assets/images/avatar.svg"
+          alt=""
+          class="author-avatar"
+        >
+
+        <span class="author-name">Greg Hooper</span>
+
+      </footer>
+
     </article>
+
   </main>
 
+  <!-- Challenge attribution -->
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
-      Mentor</a>.
-    Coded by <a href="#">Henrique Erculano</a>.
+
+    Challenge by
+    <a
+      href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Frontend Mentor
+    </a>.
+
+    Coded by
+    <a href="#">
+      Henrique Erculano
+    </a>.
+
   </footer>
 
 </body>
-
 </html>
